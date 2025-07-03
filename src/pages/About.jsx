@@ -113,9 +113,15 @@ const About = () => {
                             >
                             <span className='flex items-center mr-2 text-xl'><RxDownload /></span>Resume
                         </a>
+                         <a
+                            href="mailto:rogerraycruz@gmail.com?subject=Job%20Application&body=Hi%20there%2C"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
                         <button className='px-6 py-3 border border-secondary rounded-2xl ml-4 hover:bg-secondary hover:text-main text-secondary font-semibold'>
                             Hire me!
                         </button>
+                        </a>
                     </div>
                     <div className='flex mt-8 gap-8'>
                         <div>
