@@ -15,14 +15,12 @@ useEffect(() => {
 }, []);
   return (
     <>
-     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/internship" element={<Internship />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-    </Router>
     </>
   )
 }
