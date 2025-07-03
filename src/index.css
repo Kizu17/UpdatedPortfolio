@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme { 
+    --font-cursive: "Cedarville Cursive", cursive;
+    --color-main: #f7edff; 
+    --color-secondary: #4b3f6e;
+    --color-tertiary: #f3e8fc;
+    --color-dark: #11021f;
+    --color-details: #fa9d3d;
+    --color-pink: #eed4fc;
+}
