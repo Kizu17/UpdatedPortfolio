@@ -22,8 +22,7 @@ const Home = () => {
         </div>
         
         <div className='grid lg:grid-cols-2 grid-cols-1'> 
-            <div data-aos="fade-right"> 
-                <div className='flex flex-col lg:pl-28 lg:mt-28 mt-4 lg:mb-0 mb-14'>
+                <div data-aos="fade-right" className='flex flex-col lg:pl-28 lg:mt-28 mt-4 lg:mb-0 mb-14'>
                     <div className='flex lg:justify-start justify-center'>
                         <p className='text-4xl mt-4'>
                             <span className='text-details text-4xl font-extralight '>[</span>&nbsp;&nbsp;Hello There&nbsp;&nbsp; 
@@ -46,15 +45,19 @@ const Home = () => {
                             >
                             <span className='flex items-center mr-2 text-xl'><RxDownload /></span>Resume
                         </a>
-                        <button className='px-6 py-3 border border-secondary rounded-2xl ml-4 hover:bg-secondary hover:text-main text-secondary font-semibold'>
-                            Hire me!
-                        </button>
+                            <a
+                            href="mailto:rogerraycruz@gmail.com?subject=Job%20Application&body=Hi%20there%2C"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <button className='px-6 py-3 border border-secondary rounded-2xl ml-4 hover:bg-secondary hover:text-main text-secondary font-semibold'>
+                                Hire me!
+                            </button>
+                        </a>
                     </div>
-                </div>
             </div>
 
-            <div data-aos="fade-left">
-                <div className=' flex justify-center items-center '>
+                <div  data-aos="fade-left" className=' flex justify-center items-center '>
                     <div className="relative lg:w-[500px] lg:h-[400px] w-[400px] h-[325px]">
                         {/* SVG Blob */}
                     <svg
@@ -93,7 +96,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+    
         
     <Banner />
     <div data-aos="fade-up">

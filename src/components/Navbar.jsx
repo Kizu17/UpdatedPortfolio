@@ -70,19 +70,25 @@ const Navbar = () => {
                 </div>
             </div>
            <div className='mr-4'>
-                <div className='lg:w-32 w-12 h-11 bg-main rounded-2xl flex items-center justify-center cursor-pointer hover:bg-details group relative'>
-                    <p className='text-secondary text-md font-bold hover:text-main lg:block hidden'>Contact Me</p>
-                    
-                    {/* Icon + Tooltip on small screens */}
-                    <span className='lg:hidden block relative'>
-                    <IoIosCall className='text-secondary text-2xl hover:text-main' />
-                    
-                    {/* Tooltip */}
-                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition">
-                        Contact Me
+                <a
+                href="mailto:rogerraycruz@gmail.com?subject=Job%20Application&body=Hi%20there%2C"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                    <div className='lg:w-32 w-12 h-11 bg-main rounded-2xl flex items-center justify-center cursor-pointer hover:bg-details group relative'>
+                        <p className='text-secondary text-md font-bold hover:text-main lg:block hidden'>Contact Me</p>
+                        
+                        {/* Icon + Tooltip on small screens */}
+                        <span className='lg:hidden block relative'>
+                        <IoIosCall className='text-secondary text-2xl hover:text-main' />
+                        
+                        {/* Tooltip */}
+                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition">
+                            Contact Me
+                        </div>
+                        </span>
                     </div>
-                    </span>
-                </div>
+                </a>
             </div>
         </div>
     </div>

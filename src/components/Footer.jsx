@@ -40,18 +40,34 @@ const Footer = () => {
             Stay in Touch
         </p>
         <div className='flex flex-row gap-8 mt-4'>
-          <div>
-            <FaFacebook className='text-3xl text-secondary cursor-pointer'/>
-          </div>
-          <div>
-            <FaInstagram className='text-3xl text-secondary cursor-pointer'/>
-          </div>
-          <div>
-            <FaGithub className='text-3xl text-secondary cursor-pointer'/>
-          </div>
-          <div>
-            <MdOutlineEmail className='text-3xl text-secondary cursor-pointer'/>
-          </div>
+          <a href="https://www.facebook.com/rogerray.cruz/"  target="_blank">
+            <div>
+              <FaFacebook className='text-3xl text-secondary cursor-pointer'/>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/_.k_i_z_u._/"  target="_blank">
+            <div>
+              <FaInstagram className='text-3xl text-secondary cursor-pointer'/>
+            </div>
+          </a>
+          
+          <a href="https://github.com/Kizu17"  target="_blank">
+            <div>
+              <FaGithub className='text-3xl text-secondary cursor-pointer'/>
+            </div>
+          </a>
+
+          <a
+            href="mailto:rogerraycruz@gmail.com?subject=Job%20Application&body=Hi%20there%2C"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <div>
+              <MdOutlineEmail className='text-3xl text-secondary cursor-pointer'/>
+            </div>
+          </a>
+
         </div>
         <p className='text-secondary/75 font-extralight mt-2'>  © 2025 Roger Ray R. Cruz. All rights reserved. </p>
       </div>
