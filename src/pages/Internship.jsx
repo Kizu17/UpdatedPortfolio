@@ -26,10 +26,10 @@ const Internship = () => {
               <img src={programPic} alt="About Me" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-secondary/50"></div>
         
-              <div  className="absolute inset-0 flex flex-col justify-center items-center bg-black/40 text-white px-4">
+              <div  className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black/40 text-white px-4">
                   <div data-aos="zoom-in">
-                    <p className='text-7xl font-medium'>Internship Experience</p>
-                    <p className='text-center font-extralight text-lg opacity-80 xl:w-[650px] w-[450px] mt-4'>
+                    <p className='lg:text-7xl text-6xl font-medium text-center'>Internship Experience</p>
+                    <p className='text-center font-extralight text-lg opacity-80 xl:w-[650px] w-[400px] mt-4'>
                     Discover the experience that shaped my growth — the challenges I faced, the skills I honed, and the lessons I gained throughout my internship journey.
                     </p>
                   </div>
