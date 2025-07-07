@@ -47,7 +47,7 @@ const Projects = () => {
                 <div className="absolute inset-0 flex flex-col justify-center items-center bg-black/40 text-white p-12">
                     <div data-aos="zoom-in">
                       <p className='lg:text-6xl text-5xl text-center font-semibold'>Projects I Developed and Designed</p>
-                      <p className='text-center font-extralight lg:text-lg text-m opacity-80 xl:w-[900px] w-[325px] mt-4'>
+                      <p className='text-center font-extralight lg:text-lg text-m opacity-80 xl:w-[900px] w-[305px] mt-4'>
                       A personal project that visualizes fleeting thoughts and emotions through Web Development and Digital Art.
                       </p>
                     </div>

@@ -26,7 +26,7 @@ const About = () => {
                 <div className="absolute inset-0 flex flex-col justify-center items-center bg-black/40 text-white px-4">
                     <div data-aos="zoom-in">
                         <p className='text-7xl font-medium text-center'>About Me</p>
-                        <p className='text-center font-extralight text-lg opacity-80 xl:w-[500px] w-[450px] mt-4'>
+                        <p className='text-center font-extralight text-lg opacity-80 xl:w-[500px] w-[320px] mt-4'>
                         Take a moment to get to know the person behind the projects — my story, my passion, and what drives me to create.
                         </p>
                     </div>
@@ -36,9 +36,9 @@ const About = () => {
 
             <div className='bg-secondary w-full h-auto grid lg:grid-cols-2 grid-cols-1 mt-24'>
                 
-                <div  data-aos="fade-up" className='p-20 flex justify-center lg:items-start items-center md:ml-24 ml-2 flex-col'>
+                <div  data-aos="fade-up" className='lg:p-20 p-6 flex text-center justify-center lg:items-start items-center md:ml-24 ml-2 flex-col'>
                     <p className='text-main text-2xl font-semibold'>Educational Background</p>
-                    <p className='text-main text-md font-extralight mt-4 opacity-70 lg:w-[500px] w-[400px]'>A brief look at the schools and programs that shaped my skills, knowledge, and passion for technology.</p>
+                    <p className='text-main lg:text-start text-center text-md font-extralight mt-4 opacity-70 lg:w-[500px] w-[400px]'>A brief look at the schools and programs that shaped my skills, knowledge, and passion for technology.</p>
                 </div>
 
                 <div  data-aos="fade-up" className='flex flex-wrap gap-4 items-center justify-center p-8'>
@@ -150,9 +150,9 @@ const About = () => {
             </div>
 
             <div data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="10"
-     data-aos-offset="0" className='mb-24'>
+                data-aos-easing="ease-in-back"
+                data-aos-delay="10"
+                data-aos-offset="0" className='mb-24'>
                 <div className='flex flex-col justify-center '>
                     <div className='text-center'>
                        <p className='text-xl mt-4 font-extralight text-secondary'>
@@ -165,15 +165,15 @@ const About = () => {
                         <div className='flex flex-wrap mt-12 gap-4 items-center justify-center '>
                             <div className='flex flex-col justify-center items-center w-[350px] h-[250px] rounded-2xl'>
                                 <img src={p2022} alt="" className='object-cover rounded-2xl w-full h-full border-secondary/50 border' />
-                                <p className='flex justify-center ml-2 text-xl mt-2 font-semibold text-center'>Achademic Achiever<br/> 2022</p>
+                                <p className='justify-center ml-2 text-xl mt-2 font-semibold text-center lg:block hidden'>Achademic Achiever<br/> 2022</p>
                             </div>
                             <div className='flex flex-col justify-center items-center w-[350px] h-[250px] rounded-2xl'>
                                 <img src={p2023} alt="" className='object-cover rounded-2xl w-full h-full border-secondary/50 border' />
-                                <p className='flex justify-center ml-2 text-xl mt-2 font-semibold text-center'>Achademic Achiever<br/> 2023</p>
+                                <p className='justify-center ml-2 text-xl mt-2 font-semibold text-center lg:block hidden'>Achademic Achiever<br/> 2023</p>
                             </div>
                             <div className='flex flex-col justify-center items-center w-[350px] h-[250px] rounded-2xl'>
                                 <img src={p2024} alt="" className='object-cover rounded-2xl w-full h-full border-secondary/50 border' />
-                                <p className='flex justify-center ml-2 text-xl mt-2 font-semibold text-center'>Achademic Achiever<br/> 2024</p>
+                                <p className='justify-center ml-2 text-xl mt-2 font-semibold text-center lg:block hidden'>Achademic Achiever<br/> 2024</p>
                             </div>
                             <div className='flex items-center justify-center'>
                                 <div>
